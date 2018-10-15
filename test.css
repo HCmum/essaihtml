@@ -1,0 +1,81 @@
+h1 {
+  color: rgb(66, 27, 139);
+  font-size: 30px;
+  text-align: center;
+}
+body {
+  background-color: rgb(245, 238, 239);
+}
+
+.div-para {
+  margin: auto 30px;
+  line-height: 15px;
+}
+
+table {
+  background-color: rgba(243, 67, 164, 0.151);
+  border: 5px solid rgb(100, 73, 150);
+  border-collapse: collapse;
+  /*margin: 15px auto;*/
+}
+
+img {
+  padding: 20px;
+}
+.image {
+  position: absolute;
+  left: 200px;
+  top: 80px;
+}
+td {
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+ol {
+  margin: auto 5px;
+}
+ol ul {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bolder;
+}
+
+.niv1 {
+  color: red;
+  font-weight: bolder;
+}
+
+li.niv1 li {
+  color: green;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.niv2 {
+  color: blue;
+  font-style: italic;
+}
+
+li.niv2 li {
+  color: red;
+  font-weight: normal;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.niv3 {
+  color: green;
+  text-decoration: underline;
+}
+
+li.niv3 li {
+  color: blue;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+li::first-child {
+}
